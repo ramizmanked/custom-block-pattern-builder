@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<phpunit
+	bootstrap="tests/bootstrap.php"
+	backupGlobals="false"
+	colors="true"
+	convertErrorsToExceptions="true"
+	convertNoticesToExceptions="true"
+	convertWarningsToExceptions="true"
+	>
+	<testsuites>
+		<testsuite name="default">
+			<directory prefix="test-" suffix=".php">./tests/</directory>
+			<exclude>./tests/test-sample.php</exclude>
+		</testsuite>
+	</testsuites>
+	<filter>
+		<whitelist processUncoveredFilesFromWhitelist="true">
+			<directory suffix=".php">./classes</directory>
+		</whitelist>
+	</filter>
+	<logging>
+		<log type="coverage-text" target="php://stdout" showUncoveredFiles="true" />
+		<log type="coverage-html" showOnlySummary="false" target="tests/coverage" showUncoveredFiles="true" />
+	</logging>
+</phpunit>

@@ -8,6 +8,12 @@ yarn-error.log*
 # Coverage directory used by tools like istanbul
 coverage
 
+# phpunit files
+bin
+.travis.yml
+composer.lock
+vendor
+
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
 
