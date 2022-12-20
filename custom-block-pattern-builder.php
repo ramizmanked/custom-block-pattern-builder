@@ -17,6 +17,6 @@
 const BLOCK_PATTERN_BUILDER_VERSION = '1.0.0';
 const BLOCK_PATTERN_BUILDER_DIR     = __DIR__;
 
-require_once BLOCK_PATTERN_BUILDER_DIR . '/classes/class-custom-block-pattern-builder.php';
+require_once BLOCK_PATTERN_BUILDER_DIR . '/classes/class-admin.php';
 
-new Custom_Block_Pattern_Builder();
+new Custom_Block_Pattern_Builder\Admin();

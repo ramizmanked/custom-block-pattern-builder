@@ -5,10 +5,12 @@
  * @package custom-block-pattern-builder
  */
 
+namespace Custom_Block_Pattern_Builder;
+
 /**
  * Class Custom_Block_Pattern_Builder
  */
-class Custom_Block_Pattern_Builder {
+class Admin {
 
 	/**
 	 * Constructor method.
@@ -90,7 +92,7 @@ class Custom_Block_Pattern_Builder {
 	 * Register custom block-patterns.
 	 */
 	protected function _block_pattern_builder_register_block_patterns(): void {
-		$patterns = new WP_Query(
+		$patterns = new \WP_Query(
 			array(
 				'post_type'      => 'block_pattern',
 				'posts_per_page' => -1,
