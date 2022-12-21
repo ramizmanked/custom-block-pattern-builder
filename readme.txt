@@ -2,7 +2,7 @@
 Contributors:      ramizmanked
 Tags:              block pattern, pattern, pattern builder, custom patterns
 Tested up to:      6.1.1
-Stable tag:        trunk
+Stable tag:        1.0
 License:           GPLv3
 License URI:       https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -29,9 +29,9 @@ Edit any post/page with block editor and click on Block Inserter on top-left cor
 
 1. View all `Block Patterns`.
 2. Create New Block Pattern.
-3. Inser Block Pattern
+3. Insert Block Pattern
 
 == Changelog ==
 
-= 1.0.0 =
+= 1.0 =
 * Initial release.
