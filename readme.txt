@@ -1,8 +1,8 @@
 === Custom Block Pattern Builder ===
 Contributors:      ramizmanked
-Tags:              block pattern, pattern, pattern builder, custom patterns
+Tags:              custom block pattern builder, custom block pattern, block pattern, custom patterns
 Tested up to:      6.1.1
-Stable tag:        1.0
+Stable tag:        1.0.1
 License:           GPLv3
 License URI:       https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -32,6 +32,10 @@ Edit any post/page with block editor and click on Block Inserter on top-left cor
 3. Insert Block Pattern
 
 == Changelog ==
+
+= 1.0.1 =
+* Add fallback header banner for plugin page on wordpress.org.
+* Update tags for better search visibility.
 
 = 1.0 =
 * Initial release.
